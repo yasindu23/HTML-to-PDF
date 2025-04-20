@@ -57,7 +57,7 @@
         async function sendHTML() {
             const content = document.getElementById("htmlContent").value;
 
-            const response = await fetch('http://localhost:8080/api/v1/pdf/generate', {
+            const response = await fetch('https://html-to-pdf-converter-8gx1.onrender.com/api/v1/pdf/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
